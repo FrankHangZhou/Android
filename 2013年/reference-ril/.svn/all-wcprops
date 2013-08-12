@@ -1,0 +1,19 @@
+END
+reference-ril.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/268/Android4.0/Comc_android4.0.3/branches/branch_hjy/hardware/ril/reference-ril/reference-ril.c
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/268/Android4.0/Comc_android4.0.3/branches/branch_hjy/hardware/ril/reference-ril/Android.mk
+END
+atchannel.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/268/Android4.0/Comc_android4.0.3/branches/branch_hjy/hardware/ril/reference-ril/atchannel.c
+END
