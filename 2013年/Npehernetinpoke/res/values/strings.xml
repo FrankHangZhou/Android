@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NpehernetinpokeActivity!</string>
+    <string name="app_name">客戶以太网方法测试</string>
+      <string name="eth_static_ip_succ">静态IP设置成功，有网线</string>
+    <string name="eth_ip_conf_success_but_no_hw">静态IP设置成功，无网线</string>
+    <string name="eth_static_ip_fail">静态IP设置失败</string>
+    <string name="ethernet_net_down">网络不可用</string>
+    <string name="ethernet_net_up">网络恢复可用</string>
+    <string name="eth_ip_dhcp_success">自动获取IP成功</string>
+    <string name="eth_ip_dhcp_failed">自动获取IP失败</string> 
+    <string name="eth_togger_on">有线网即将打开</string>
+    <string name="eth_togger_off">有线网即将关闭</string>
+    
+</resources>

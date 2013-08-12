@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/jni
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/jni/Android.mk
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/jni/config.c
+END

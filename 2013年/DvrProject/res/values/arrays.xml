@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!-- Used in View/Spinner1.java -->
+    <string-array name="model">
+        <item>通道一</item>
+        <item>通道二</item>
+        <item>通道三</item>
+        <item>通道四</item>
+        <item>田字格</item>
+    </string-array>
+    
+    <!-- Used in View/Spinner1.java -->
+    <string-array name="ratio">
+        <item>D1</item>
+        <item>CIF</item>
+        <item>QCIF</item>
+
+    </string-array>
+
+</resources>

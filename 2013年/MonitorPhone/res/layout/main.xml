@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="80dip" android:orientation="vertical">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="输入电话号码:"
+			android:textColor="#FA0000" android:textSize="18dip" />
+		<EditText android:id="@+id/ed1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:singleLine="true"
+			android:hint="号码" 
+			android:phoneNumber="true" 
+			android:numeric="integer"
+			android:maxLength="11"
+			android:imeOptions="actionDone" />
+	</LinearLayout>
+	<TextView android:id="@+id/ed3" android:layout_width="fill_parent"
+		android:layout_height="30dip" android:hint="状态显示:" android:textSize="18dip"
+		android:textColor="#FA0000" android:focusable="false" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="200dip" android:orientation="vertical">
+
+		<EditText android:id="@+id/ed2" android:layout_width="fill_parent"
+			android:textColor="#cccccc" android:background="#0000FF"
+			android:focusable="false" android:layout_height="fill_parent" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="80dip" android:orientation="horizontal"
+		android:gravity="center_horizontal">
+		<Button android:id="@+id/bt0" android:layout_width="100dip"
+			android:layout_height="wrap_content" android:text="@string/close" />
+		<Button android:id="@+id/bt1" android:layout_width="100dip"
+			android:layout_height="wrap_content" android:text="@string/open" />
+	</LinearLayout>
+
+
+
+
+</LinearLayout>

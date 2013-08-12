@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util
+END
+VersionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util/VersionInfo.java
+END
+ZipUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util/ZipUtils.java
+END
+MySystemProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util/MySystemProperties.java
+END
+FTPDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util/FTPDownloader.java
+END
+ReadConfiger.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util/ReadConfiger.java
+END
+NetworkHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util/NetworkHelper.java
+END
+XMLParserUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/src/com/frankhuijiyun/android/util/XMLParserUtil.java
+END

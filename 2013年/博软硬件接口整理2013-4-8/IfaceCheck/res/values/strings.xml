@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IfaceCheckActivity!</string>
+    <string name="app_name">IfaceCheck</string>
+    <string name="zhiwen">指纹</string>
+    <string name="rfid">RFID</string>
+    <string name="gps">GPS</string>
+
+</resources>

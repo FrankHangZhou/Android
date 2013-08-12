@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/obj/local/armeabi/objs/ftp
+END
+ftputil.o.d
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/obj/local/armeabi/objs/ftp/ftputil.o.d
+END
+ftpgetput.o.d.org
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/obj/local/armeabi/objs/ftp/ftpgetput.o.d.org
+END

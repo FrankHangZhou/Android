@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/App/!svn/ver/595/base_kernel_api/branches/test/FtpClientdownloadpatch
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/proguard.cfg
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/AndroidManifest.xml
+END

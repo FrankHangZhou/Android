@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/res/layout/keyguard.xml
+**
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/statusview"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:paddingLeft="20dip"
+        android:text="当前拍照状态："
+        android:textColor="@color/white" />
+
+    <!-- 横向的模式等开始 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:orientation="horizontal" >
+
+        <!-- 拍照状态设置部分 -->
+        <!-- 左边横向设置部分 -->
+
+        <LinearLayout
+            android:layout_width="250dip"
+            android:layout_height="200dip"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingTop="5dip" >
+
+            <!-- 拍照模式设置部分 -->
+            <!-- 模式部分 -->
+
+            <LinearLayout
+                android:layout_width="250dip"
+                android:layout_height="50dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:paddingTop="10dip"
+                    android:text="模式"
+                    android:textColor="@color/white" />
+
+                <Spinner
+                    android:id="@+id/spinnercolor"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dip"
+                    android:drawSelectorOnTop="true"
+                    android:prompt="@string/spinner_color_prompt" />
+            </LinearLayout>
+            <!-- 分辨率部分 -->
+
+            <LinearLayout
+                android:layout_width="250dip"
+                android:layout_height="50dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="50dip"
+                    android:layout_height="30dip"
+                    android:paddingTop="10dip"
+                    android:text="分辨率"
+                    android:textColor="@color/white" />
+
+                <Spinner
+                    android:id="@+id/spinnercolor2"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dip"
+                    android:drawSelectorOnTop="true"
+                    android:prompt="@string/spinner_color_prompt2" />
+            </LinearLayout>
+            <!-- 拍照間隔時間 -->
+
+            <LinearLayout
+                android:layout_width="250dip"
+                android:layout_height="50dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="90dip"
+                    android:layout_height="30dip"
+                    android:paddingTop="10dip"
+                    android:text="拍照间隔时间"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/EditText1"
+                    android:layout_width="50dip"
+                    android:layout_height="30dip"
+                    android:layout_marginLeft="50dip"
+                    android:imeOptions="actionDone"
+                    android:numeric="integer"
+                    android:prompt="@string/spinner_color_prompt2"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="90dip"
+                    android:layout_height="30dip"
+                    android:paddingTop="10dip"
+                    android:text="分钟"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <!-- 拍照后通过3G上传 -->
+
+            <LinearLayout
+                android:layout_width="250dip"
+                android:layout_height="50dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="150dip"
+                    android:layout_height="30dip"
+                    android:paddingTop="10dip"
+                    android:text="拍照后通过3G网络上传"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/radioButton1"
+                    android:layout_width="45dip"
+                    android:layout_height="45dip"
+                    android:layout_marginLeft="40dip"
+                    android:checked="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 横向放入照片 -->
+
+        <LinearLayout
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip" >
+
+            <com.lyt.myImageView
+                android:id="@+id/iamge"
+                android:layout_width="180dip"
+                android:layout_height="140dip"
+                android:layout_gravity="left"
+                android:background="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 按钮部分 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- 确认按钮 -->
+
+        <Button
+            android:id="@+id/btn_saveandstart"
+            android:layout_width="150dip"
+            android:layout_height="51dip"
+            android:background="@drawable/btbutton"
+            android:text="保存并重新开始"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="150dip"
+            android:layout_height="51dip"
+            android:background="@drawable/btbutton"
+            android:text="停止"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="150dip"
+            android:layout_height="51dip"
+            android:background="@drawable/btbutton"
+            android:text="取消"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

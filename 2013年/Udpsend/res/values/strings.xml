@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UdpsendActivity!</string>
+    <string name="app_name">Udpsend</string>
+    <string name="send">发送4-8092</string>
+
+</resources>

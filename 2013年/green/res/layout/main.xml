@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 作者：frank @lyt  时间：2013-4-15 -->
+
+    <TabHost
+        android:id="@id/android:tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/gridview" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@id/android:tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" />
+
+            <FrameLayout
+                android:id="@id/android:tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/cb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <!-- 这里添加一个导航条 -->
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="30dip"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="50.0dip"
+                                android:layout_height="wrap_content"
+                                android:background="#ffdcdcdc"
+                                android:gravity="left"
+                                android:text=""
+                                android:textSize="18.0dip"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="130.0dip"
+                                android:layout_height="wrap_content"
+                                android:background="#ffdcdcdc"
+                                android:gravity="left"
+                                android:text="姓名"
+                                android:textColor="#ff000000"
+                                android:textSize="18.0dip"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="138.0dip"
+                                android:layout_height="wrap_content"
+                                android:background="#ffdcdcdc"
+                                android:gravity="left"
+                                android:text="手机号"
+                                android:textColor="#ff000000"
+                                android:textSize="18.0dip"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                        <!-- 提示 -->
+
+                        <TextView
+                            android:id="@android:id/empty"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:text="正在读取SIM卡，请稍候..."
+                            android:textAppearance="?android:textAppearanceLarge" />
+
+                        <ListView
+                            android:id="@+id/listview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:cacheColorHint="#00000000"
+                            android:scrollbars="none" >
+                        </ListView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <!-- 这里添加一个导航条   电话联系人 frank -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dip"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="50.0dip"
+                            android:layout_height="wrap_content"
+                            android:background="#ffdcdcdc"
+                            android:gravity="left"
+                            android:text=""
+                            android:textSize="18.0dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="130.0dip"
+                            android:layout_height="wrap_content"
+                            android:background="#ffdcdcdc"
+                            android:gravity="left"
+                            android:text="姓名"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="138.0dip"
+                            android:layout_height="wrap_content"
+                            android:background="#ffdcdcdc"
+                            android:gravity="left"
+                            android:text="手机号"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@android:id/edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="正在读取手机联系人，请稍候..."
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <ListView
+                        android:id="@+id/listview1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:cacheColorHint="#00000000" >
+
+                        <!-- android:background="@drawable/listviewbackground" -->
+                    </ListView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

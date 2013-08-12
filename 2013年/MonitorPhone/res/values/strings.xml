@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MonitorPhoneActivity!</string>
+    <string name="app_name">MonitorPhone</string>
+    <string name="close">关闭电话</string>
+    <string name="open">拨打电话</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GreenActivity!</string>
+    <string name="app_name">联系人管理</string>
+     <string name="ADD">添加</string>
+    <string name="DELETE">删除</string>
+    <drawable name="gridviewbackground">#0077AA</drawable>
+    <drawable name="listviewbackground">#FFFFFF</drawable> 
+    <drawable name="black">#000000</drawable>
+    <drawable name="bg">#E6ECF6</drawable>
+    <drawable name="fc">#99CCFF</drawable>
+    <drawable name="gd">#577FB5</drawable>
+</resources>

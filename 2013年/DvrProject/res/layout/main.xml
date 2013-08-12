@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="420dip"
+        android:layout_height="fill_parent"
+        android:background="@color/灰色"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip"
+            android:text="当前状态:"
+            android:textColor="@color/white" />
+
+        <com.lyt.camera.CameraPreview
+            android:id="@+id/preview"
+            android:layout_width="415dip"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/灰色" />
+
+        <TextView
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="车载驾培视频监控功能演示"
+            android:textColor="@color/黄色"
+            android:textSize="23px" />
+
+        <LinearLayout
+            android:layout_width="320dip"
+            android:layout_height="50dip"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+            >
+
+            <Button
+                android:id="@+id/buttonsnap"
+                android:layout_width="237px"
+                android:layout_height="58px"
+                android:background="@drawable/bg_alibuybutton"
+                android:text="自动定时抓拍4路通道"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dip"
+            android:layout_height="50dip"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+            >
+
+            <Button
+                android:id="@+id/buttonvideo"
+                android:layout_width="237px"
+                android:layout_height="58px"
+                android:background="@drawable/bg_alibuybutton"
+                android:text="自动4路同时录像"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dip"
+            android:layout_height="50dip"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+            >
+
+            <Button
+                android:id="@+id/buttonplayback"
+                android:layout_width="237px"
+                android:layout_height="58px"
+                android:background="@drawable/bg_alibuybutton"
+                android:text="进入录像回放模式"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dip"
+            android:layout_height="200dip"
+            android:orientation="horizontal"
+            android:paddingLeft="0dip" >
+            >
+
+            <com.baidu.mapapi.map.MapView
+                android:id="@+id/bmapView"
+                android:layout_width="320dip"
+                android:layout_height="fill_parent"
+                android:clickable="true" />
+        </LinearLayout>
+            />
+    </LinearLayout>
+
+</LinearLayout>

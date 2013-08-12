@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FtpClientdownloadpatchActivity!</string>
+    <string name="app_name">远程更新FTP</string>
+    <string name="kernel">内核：</string>
+    <string name="Android">Android版本：</string>
+
+</resources>

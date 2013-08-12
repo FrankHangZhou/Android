@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/libs/armeabi
+END
+ftp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/libs/armeabi/ftp
+END
+libconfig.so
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/App/!svn/ver/596/base_kernel_api/branches/test/FtpClientdownloadpatch/libs/armeabi/libconfig.so
+END
